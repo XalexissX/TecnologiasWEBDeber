@@ -89,11 +89,16 @@
     width: 200px;
     height: 200px;
 }
+#FotoCiberTruck{
+    width: 400px;
+    height: 300px;
+}
 .ImgStandard2{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 500px;
+    width: auto;
+    /*width: 500px;*/
     height: 200px;
 }
 .ImgStandard{
