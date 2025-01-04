@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/estilos.css">
     <title>Blog AlexTech</title>
 </head>
 <body>
-    <header>
-        <img src="img/alex.jpg" alt="Logo Alex" width="10%">
-        <br>
-        <span>Tecnologia y más</span>
-        <nav>
+    <header class="cabeceraP">
+        <img class="logo" src="img/alex.jpg" alt="Logo Alex">
+        <span class="vineta">Tecnologia y más</span>
+        <nav class="menu">
             <ul>
                 <li><a href="secundaria/noticias.html">Noticias</a></li>
                 <li><a href="secundaria/nuevastecnologias.html">Innovaciones</a></li>
@@ -21,9 +21,9 @@
         </nav>
     </header>
     <div>
-        <section>
-            <nav>
-                <span>Continent</span>
+        <div id="desplegable">
+            <img id="continent" src="img/word.jpg" alt="logo continent">
+            <nav id="menuDesplegable">
                 <ul>
                     <li><a href="#">North America</a></li>
                     <li><a href="#">South America</a></li>
@@ -32,34 +32,37 @@
                     <li><a href="#">Europe</a></li>
                 </ul>
             </nav>
-        </section>
-        <section>
-            <article>
-                <img src="img/LogoTesla.png" alt="Logo Tesla" width="10%">
-                <h1>TESLA Inc</h1>
-                <p>Es una empresa estadounidense con sede en Austin, Texas, liderada por Elon Musk, la cual diseña, fabrica y vende automóviles eléctricos, componentes para la propulsión de vehículos eléctricos, techos solares, instalaciones solares fotovoltaicas y baterías domésticas.
-
-                    Fue fundada en julio de 2003 por los ingenieros Martin Eberhard y Marc Tarpenning como Tesla Motors. El nombre de la empresa es un tributo al inventor e ingeniero eléctrico croata Nikola Tesla. Los siguientes tres empleados fueron Ian Wright, Elon Musk y JB Straubel, quienes fueron nombrados cofundadores de la compañía.​ Elon Musk ya había fundado varias empresas, era millonario y había tenido la idea de desarrollar baterías para el almacenamiento de energía renovable. Después de reunirse con Eberhard y Wright, Musk invirtió US$6 500 000 en la compañía, por lo que quedó como presidente de la empresa, Martin Eberhard como director ejecutivo y JB Straubel como director de tecnología.
-                </p>
+        </div>
+        <section class="seccion1">
+            <img id="logoTesla" src="img/LogoTesla.png" alt="Logo Tesla">
+            <article class="articulo">
+                <h1 class="h1">TESLA Inc</h1>
+                    <p class="p1">
+                        Es una empresa estadounidense con sede en Austin, Texas, liderada por Elon Musk, la cual diseña, fabrica y vende automóviles eléctricos, componentes para la propulsión de vehículos eléctricos, techos solares, instalaciones solares fotovoltaicas y baterías domésticas.
+                        Fue fundada en julio de 2003 por los ingenieros Martin Eberhard y Marc Tarpenning como Tesla Motors. El nombre de la empresa es un tributo al inventor e ingeniero eléctrico croata Nikola Tesla. Los siguientes tres empleados fueron Ian Wright, Elon Musk y JB Straubel, quienes fueron nombrados cofundadores de la compañía.​ Elon Musk ya había fundado varias empresas, era millonario y había tenido la idea de desarrollar baterías para el almacenamiento de energía renovable. Después de reunirse con Eberhard y Wright, Musk invirtió US$6 500 000 en la compañía, por lo que quedó como presidente de la empresa, Martin Eberhard como director ejecutivo y JB Straubel como director de tecnología.
+                    </p>
             </article>
-            <aside>
-                <h2>Nikola Tesla</h2>
-                <p>
-                    Nikola Tesla (Smiljan, Imperio austríaco, actual Croacia; 10 de julio de 1856-Nueva York, 7 de enero de 1943) fue un inventor, ingeniero eléctrico y mecánico serbio nacionalizado estadounidense, célebre por sus contribuciones al diseño del moderno suministro de electricidad de corriente alterna (CA).
-                </p>
-            </aside>
-            <aside>
-                <h2>SpaceX</h2>
-                <p>
-                    Space Exploration Technologies Corp., conocida como SpaceX, es una empresa estadounidense de fabricación aeroespacial y de servicios de transporte espacial con sede en Hawthorne (California). Fue fundada en 2002 por Elon Musk con el objetivo de reducir los costes de viajar al espacio para facilitar la colonización de Marte. SpaceX ha desarrollado varios vehículos de lanzamiento, la constelación Starlink, la nave de carga Dragon y llevado astronautas a la Estación Espacial Internacional en la Dragon 2.
-                </p>
-            </aside>
+            <div  class="Div_aside">
+                <aside>
+                    <h2 class="h2">Nikola Tesla</h2>
+                    <p class="p1">
+                        Nikola Tesla (Smiljan, Imperio austríaco, actual Croacia; 10 de julio de 1856-Nueva York, 7 de enero de 1943) fue un inventor, ingeniero eléctrico y mecánico serbio nacionalizado estadounidense, célebre por sus contribuciones al diseño del moderno suministro de electricidad de corriente alterna (CA).
+                    </p>
+                </aside>
+                <aside>
+                    <h2 class="h2">SpaceX</h2>
+                    <p class="p1">
+                        Space Exploration Technologies Corp., conocida como SpaceX, es una empresa estadounidense de fabricación aeroespacial y de servicios de transporte espacial con sede en Hawthorne (California). Fue fundada en 2002 por Elon Musk con el objetivo de reducir los costes de viajar al espacio para facilitar la colonización de Marte. SpaceX ha desarrollado varios vehículos de lanzamiento, la constelación Starlink, la nave de carga Dragon y llevado astronautas a la Estación Espacial Internacional en la Dragon 2.
+                    </p>
+                </aside>
+            </div>
+            
         </section>
-        <section>
-            <img src="img/LogoStarlink.png" alt="Logo Starlink" width="10%">
+        <section class="seccion1">
+            <img id="logoStarlink" src="img/LogoStarlink.png" alt="Logo Starlink">
             <aside>
-                <h2>Starlink</h2>
-                <p>
+                <h2 class="h2">Starlink</h2>
+                <p class="p1">
                     Starlink es una empresa que nació como proyecto de SpaceX para la creación de una constelación de satélites de internet con el objetivo de brindar un servicio de internet de banda ancha, baja latencia y cobertura mundial a bajo costo. SpaceX comenzó a lanzar satélites Starlink en 2019. En septiembre de 2022, Starlink había colocado más de 3000 satélites fabricados en serie en órbita terrestre baja (LEO).
                 </p>
             </aside>

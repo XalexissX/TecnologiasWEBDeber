@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/estilos.css">
     <title>Noticias</title>
 </head>
 <body>
-    <header>
-        <img src="../img/alex.jpg" alt="Logo Alex" width="10%">
-        <br>
-        <span>Tecnologia y más</span>
-        <nav>
+    <header class="cabeceraP">
+        <img class="logo" src="../img/alex.jpg" alt="Logo Alex" width="10%">
+        <span class="vineta">Tecnologia y más</span>
+        <nav class="menu">
             <ul>
                 <li><a href="../index.html">Inicio</a></li>
                 <li><a href="nuevastecnologias.html">Innovaciones</a></li>
@@ -19,31 +19,33 @@
             </ul>
         </nav>
     </header>
-    <div>
-        <section>
-            <span>Optimus Gen 2</span>
-            <br>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/cpraXaw7dyc?si=0clKUngWP4Yb41Ye" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <p>Tesla presenta su nuevo robot humanoide.</p>
-        </section>
-        <section>
-            <article>
-                <h1>Tesla Cybertruck: ¿la decepción eléctrica del año?</h1>
-                <img src="../img/cibertruck.jpg" alt="Cibertruck" width="15%">
-                <p>
-                    Cuando el Tesla Cybertruck se presentó al mundo en 2019, fue recibido como un vehículo que desafiaría las normas del diseño automotriz y establecería un nuevo estándar para las camionetas eléctricas. 
-                    Su cuerpo angular de acero inoxidable, estilo cyberpunk y las ambiciosas promesas de Elon Musk sobre durabilidad y desempeño crearon una ola de entusiasmo sin precedentes.
-                    Pero cinco años después, y a un año de su llegada a las carreteras, el Cybertruck se ha convertido en un recordatorio de que incluso las ideas más innovadoras pueden desmoronarse si no se ejecutan correctamente.
-                    El primer año del Cybertruck en el mercado no ha sido fácil. En lugar de consolidarse como el referente de las camionetas eléctricas, ha enfrentado constantes críticas y decepciones.
-                    Los problemas de calidad, las llamadas a revisión y un diseño que, aunque espectacular, resulta poco práctico, han hecho que muchos lo cataloguen como el mayor fiasco automotriz de 2024.
-                </p>
-            </article>
-        </section>
-        <section>
+    <div class="seccion1">
+        <div>
+            <section class="noti_section">
+                <h2 class="h2">Optimus Gen 2</h2>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/cpraXaw7dyc?si=0clKUngWP4Yb41Ye" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <br>
+                <span>Tesla presenta su nuevo robot humanoide.</span>
+            </section>
+            <div>
+                <article class="articulo">
+                    <h2 class="h2">Tesla Cybertruck: ¿la decepción eléctrica del año?</h2>
+                    <img src="../img/cibertruck.jpg" alt="Cibertruck" width="15%">
+                    <p class="p1">
+                        Cuando el Tesla Cybertruck se presentó al mundo en 2019, fue recibido como un vehículo que desafiaría las normas del diseño automotriz y establecería un nuevo estándar para las camionetas eléctricas. 
+                        Su cuerpo angular de acero inoxidable, estilo cyberpunk y las ambiciosas promesas de Elon Musk sobre durabilidad y desempeño crearon una ola de entusiasmo sin precedentes.
+                        Pero cinco años después, y a un año de su llegada a las carreteras, el Cybertruck se ha convertido en un recordatorio de que incluso las ideas más innovadoras pueden desmoronarse si no se ejecutan correctamente.
+                        El primer año del Cybertruck en el mercado no ha sido fácil. En lugar de consolidarse como el referente de las camionetas eléctricas, ha enfrentado constantes críticas y decepciones.
+                        Los problemas de calidad, las llamadas a revisión y un diseño que, aunque espectacular, resulta poco práctico, han hecho que muchos lo cataloguen como el mayor fiasco automotriz de 2024.
+                    </p>
+                </article>
+            </div>
+        </div>
+        <div class="Div_aside">
             <aside>
-                <h2>BYD supera su objetivo anual de entregas antes de lo previsto y estrecha el cerco sobre Tesla</h2>
+                <h2 class="h2">BYD supera su objetivo anual de entregas antes de lo previsto y estrecha el cerco sobre Tesla</h2>
                 <img src="../img/byd.jpg" alt="BYD" width="10%">
-                <p>
+                <p class="p1">
                     BYD y Tesla libran una dura batalla por convertirse en la mayor empresa de coches eléctricos del mundo y el fabricante chino acaba de asestar un duro golpe.
 
                     BYD ha superado su objetivo anual de ventas un mes antes de lo previsto, mientras la empresa de Elon Musk lucha por cumplir su propio objetivo anual.
@@ -61,7 +63,7 @@
                     El éxito de BYD ha aumentado la presión sobre Tesla, que ha estado luchando con la empresa china por el título de mayor productor mundial de coches eléctricos.
                 </p>
             </aside>
-        </section>
+        </div>
     </div>
     <footer>2024 Alexis Calispa - Todos los derechos reservados</footer>
 </body>
